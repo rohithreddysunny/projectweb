@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-                git credentialsId: 'bns', url: 'https://github.com/manikantabns/myweb.git'
+                git credentialsId: 'rohithreddysunny', url: 'git add path/to/your/script'
             }
         }
         stage("Maven Build"){
